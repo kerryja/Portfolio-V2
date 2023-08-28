@@ -1,0 +1,46 @@
+.header {
+  grid-area: header;
+}
+.social {
+  grid-area: social;
+}
+.left-column {
+  grid-area: left-column;
+}
+.right-column {
+  grid-area: right-column;
+}
+
+@media (min-width: 1101px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "social header header"
+      "social left-column right-column";
+    gap: 2%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "left-column"
+      "right-column";
+    gap: 0;
+  }
+
+  .header {
+    text-align: center;
+  }
+  .social {
+    display: none;
+  }
+  .left-column {
+    text-align: center;
+  }
+  .right-column {
+    text-align: center;
+  }
+}

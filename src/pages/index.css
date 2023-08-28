@@ -1,0 +1,18 @@
+.main {
+  min-height: 100vh;
+}
+
+@media (min-width: 1101px) {
+  .main {
+    width: 75%;
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .main {
+    margin-top: 2rem;
+    width: 90%;
+    padding: 10px;
+  }
+}
