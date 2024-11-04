@@ -2,6 +2,7 @@ import * as React from "react";
 import { Element } from "react-scroll";
 import Social from "../components/Social.js";
 import "./About.css";
+import resume from "../files/kerry_laval_resume_2024.pdf";
 
 import { BsSuitHeartFill } from "react-icons/bs";
 
@@ -60,7 +61,7 @@ const About = () => {
             <h2 style={headingStyles}>2019</h2>
             <p>
               My coding journey began in 2019 when I started attending a 10
-              month coding boot camp called Bloc (now called Thinkful). I
+              month coding boot camp called Bloc (now called Chegg Skills). I
               graduated in October and scored my first engineering job a month
               later. This was working for{" "}
               <a
@@ -92,7 +93,7 @@ const About = () => {
                 Olo
               </a>
               , an industry leader in providing online ordering experiences for
-              restaurants. We work with 600+ brands and process on average 2
+              restaurants. We work with 700+ brands and process on average 2
               million orders per day.
             </p>
           </div>
@@ -107,23 +108,18 @@ const About = () => {
               repos are very modern React apps, keeping me on top of the latest
               advancements. I am also no stranger to working in more mature
               codebases, as I am frequently helping out in some of Olo's oldest
-              Ember apps built 10+ years ago.
-            </p>
-            <p>
-              The more I work in React, the more I love it. And I am here to
-              stay in the frontend world. I love the challenges it brings and
-              seeing my work come to life.
+              Ember apps built 15+ years ago.
             </p>
             <p>
               My biggest passion is traveling. I've traveled across the US and
-              to 10 countries so far, and the travel bucket list grows each day!
-              I live with my husband, 2 guinea pigs, 2 chinchillas, and the most
-              adorable Burmese cat you could ever meet 😻.
+              to 12 countries so far, and the travel bucket list grows each day!
+              I live with my husband Jeremie, and the most adorable Burmese cat
+              you could ever meet 😻.
             </p>
             <p>
               Please feel free to check out my{" "}
               <a
-                href="/kerry_laval_resume.pdf"
+                href={resume}
                 style={linkStyle}
                 target="_blank"
                 rel="noreferrer"

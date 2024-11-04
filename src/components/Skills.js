@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Skills.css";
 import styled from "styled-components";
-import { IoLogoJavascript } from "react-icons/io";
+import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 
 const Container = styled.div`
@@ -20,7 +20,7 @@ const Skills = () => {
   return (
     <>
       <Container>
-        <h3>My all-time favorite tech</h3>
+        <h3>My Techstack</h3>
         <div style={logoStyles}>
           <FaReact
             style={{
@@ -30,7 +30,7 @@ const Skills = () => {
               marginRight: "2rem",
             }}
           />
-          <IoLogoJavascript
+          <SiTypescript
             style={{
               background: "-webkit-linear-gradient(135deg, #ffc837, #ff8008)",
               color: "white",
@@ -41,7 +41,7 @@ const Skills = () => {
         <div>
           <h3>And some others</h3>
           <ul className="skillsList">
-            <li>TypeScript</li>
+            <li>JavaScript</li>
             <li>Jest</li>
             <li>Playwright</li>
 

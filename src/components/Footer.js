@@ -10,7 +10,7 @@ const Container = styled.div`
 `;
 
 const Footer = () => {
-  return <Container>© 2023 Kerry Laval</Container>;
+  return <Container>© 2024 Kerry Laval</Container>;
 };
 
 export default Footer;
