@@ -3,6 +3,7 @@ import "./Skills.css";
 import styled from "styled-components";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
+import { SiReact } from "react-icons/si";
 
 const Container = styled.div`
   text-align: center;
@@ -22,7 +23,7 @@ const Skills = () => {
       <Container>
         <h3>My Techstack</h3>
         <div style={logoStyles}>
-          <FaReact
+          <SiReact
             style={{
               background: "-webkit-linear-gradient(45deg, #ffc837, #ff8008)",
               color: "white",
